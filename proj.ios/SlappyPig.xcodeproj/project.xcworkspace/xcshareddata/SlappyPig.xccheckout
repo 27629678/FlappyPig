@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30879CEE-3140-4677-B1B6-820A50D0F746</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlappyPig</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08BDC596-B2AA-4F32-AAE7-ED724F9D190E</key>
+		<string>https://github.com/27629678/FlappyPig.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios/SlappyPig.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08BDC596-B2AA-4F32-AAE7-ED724F9D190E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/27629678/FlappyPig.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08BDC596-B2AA-4F32-AAE7-ED724F9D190E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08BDC596-B2AA-4F32-AAE7-ED724F9D190E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlappyPig</string>
+		</dict>
+	</array>
+</dict>
+</plist>
