@@ -54,12 +54,15 @@ void MapCreater::mapInit (int index) {
 }
 
 void MapCreater::update (float dt) {
-	this->setPosition(ccpAdd(this->getPosition(), ccp(-100/60, 0)));
-	this->setPosition(ccpAdd(this->getPosition(), ccp(-100/60, 0)));
+    int framerate = 1/CCDirector::sharedDirector()->getSecondsPerFrame();
+    framerate = 60;
+    
+	this->setPosition(ccpAdd(this->getPosition(), ccp(-200/framerate, 0)));
 
-	if (this->getPosition().x < -80) {
-		GameScene::sharedGameManager()->removeChild(this, true);
-	}
+//	if (this->getPosition().x < - 200) {
+//        CCLog("Remove Chile Item.");
+//		GameScene::sharedGameManager()->removeChild(this, true);
+//	}
 }
 
 void MapCreater::onExit () {

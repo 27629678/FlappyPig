@@ -27,5 +27,15 @@ public:
 	virtual void onEnter ();
 	virtual void onExit ();
 	void update(float dt);
+    
+private:
+    float velocity_x;
+    float velocity_y;
+    float velocity_y_delta;
+    
+    bool iscollision;
+    bool iscollision_x;
+    bool iscollision_uy;
+    bool iscollision_dy;
 };
 
