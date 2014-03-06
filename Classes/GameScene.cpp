@@ -42,7 +42,7 @@ bool GameScene::init () {
 	CC_SAFE_RETAIN(arrayPost);
 
 	//	Background
-	CCSprite* background = MapBase::create (this, "background.png", CCRect(0, 0, 960, 640));
+	MapBase::create (this, "background.png", CCRect(0, 0, 960, 640));
 
 	//	Player
 	player = CCSprite::create("Play_Nor.png");
@@ -112,6 +112,7 @@ void GameScene::myUpdate(float dt) {
 	{
 		float velocity_x = 0, velocity_y = 100.0f/60;
 		if (player->getPosition().y <= player->getContentSize().height/2) {
+            velocity_x = 0;
 			velocity_y = 0;
 		}
 		player->setPosition(ccpAdd(player->getPosition(), ccp(0, -velocity_y)));
